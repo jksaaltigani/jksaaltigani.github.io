@@ -3,7 +3,9 @@
 	--second-color: #1fd4a8;
 	--third-color:  #af9210;
 }
-
+body {
+background-image:url('../images/public/background.png');
+}
 *{
 	text-transform: capitalize;
 }
@@ -11,6 +13,9 @@ a{
 	color: #000;
 	font-weight: bold;
 	text-decoration:none;
+}
+.background{
+	background: #fff;
 }
 .simple_contaienr{
 	max-width:600px;
@@ -117,7 +122,7 @@ margin-top: 20px;
 	max-width: 100%;
 }
 .my_info_and_porgress{
-margin-top :50px
+/* margin-top :50px */
 }
 .custom_btn{
 	/* border: 1px solid #ccc;	 */
@@ -177,7 +182,7 @@ margin: 20px;
 }
 
 .content_chose{
-	max-height: 300px;
+	max-height: 500px;
 	/* overscroll-behavior-inline: scroll; */
 overflow-y: scroll;
 	/* overflow: scroll; */
@@ -190,6 +195,7 @@ overflow-y: scroll;
 }
 .main_container{
 	max-width: 95%;
+	background:#fff;
 	/* max-height: 200vh; */
 	min-height:95vh ;
 	max-height:98vh ;
@@ -206,8 +212,12 @@ overflow-y: scroll;
 .galray_skil_ul li{
 display: inline-block;
 }
+
 .galray_side{
-	max-height: 95vh;
+	max-height: 99vh;
+	background:#fff;
+	/* max-width: 95%; */
+	margin: auto;
 	overflow-y:scroll;
 	position: relative;
 }
